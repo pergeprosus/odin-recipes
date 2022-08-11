@@ -1,10 +1,13 @@
 body {
-    background: linear-gradient(to left, pink, white, red);
+    background: linear-gradient(to left, green, #32c974);
 }
 
 img {
     border: 3px solid black;
     width: 400px;
+    height: 400px;
+    float: center;
+   
 }
 
 li {
@@ -16,12 +19,20 @@ li {
 h1 {
     font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif
+    border: 4px solid black;
+    background: black;
+    color: white;
+    margin-right: 1000px;
+    float: center;
 }
 
 ul {
-    border: 1px solid black;
-    background: yellow;
+    border: 3px solid black;
+    background: lightgoldenrodyellow;
     float: left;
-    padding-bottom: 240px;
     color: black;
+    height: 400px;
+    width: 400px;
+  margin-top: 0px;
+  text-align: left;
 }
