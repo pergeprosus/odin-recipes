@@ -1,7 +1,27 @@
 body {
-    background: linear-gradient(to left, pink, white, orange);
+    background: linear-gradient(to left, pink, white, red);
 }
 
 img {
     border: 3px solid black;
+    width: 400px;
+}
+
+li {
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+ul {
+    border: 1px solid black;
+    background: yellow;
+    float: left;
+    padding-bottom: 240px;
+    color: black;
 }
