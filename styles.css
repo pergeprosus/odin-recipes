@@ -4,6 +4,7 @@ body {
 
 img {
     border: 3px solid black;
+    border-left: 0;
     width: 400px;
     height: 400px;
     float: center;
@@ -35,4 +36,8 @@ ul {
     width: 400px;
   margin-top: 0px;
   text-align: left;
+}
+
+html {
+    box-sizing: border-box;
 }
