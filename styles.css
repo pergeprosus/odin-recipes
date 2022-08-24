@@ -1,14 +1,13 @@
 body {
     background: linear-gradient(to left, green, #32c974);
+    min-height: 100vh;
+    width: 100%;
 }
 
 img {
     border: 3px solid black;
-    border-left: 0;
     width: 400px;
     height: 400px;
-    float: center;
-
 }
 
 li {
@@ -19,38 +18,34 @@ li {
 
 h1 {
     font-size: 60px;
-    font-family: Georgia, 'Times New Roman', Times, serif border: 4px solid black;
+    font-family: Georgia, 'Times New Roman', Times, sans-serif;
     background: black;
     color: white;
-    margin-right: 1000px;
-    float: center;
 }
 
 ul {
     border: 3px solid black;
     background: lightgoldenrodyellow;
-    float: left;
     color: black;
     height: 400px;
     width: 400px;
-    margin-top: 0px;
     text-align: left;
-}
-
-html {
-    box-sizing: border-box;
 }
 
 .disclaimer {
-    border: 1px solid black;
     color: white;
     font-weight: bold;
-    text-align: left;
+    text-align: center;
     background: black;
-    display:inline-block;
-    position: left;
-    line-height: 1em;
-    vertical-align: 300px;
-    margin-right: 1000px;
-    padding: relative;
+   justify-content: flex-end;
+   font-size: 50px;
+
+
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
